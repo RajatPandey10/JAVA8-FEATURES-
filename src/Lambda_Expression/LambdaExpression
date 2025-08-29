@@ -1,0 +1,4 @@
+A Lambda Expression is a short block of code that takes parameters and returns a value.
+
+It is used to provide the implementation of a functional interface
+functional interface --> (an interface with only one abstract method).
