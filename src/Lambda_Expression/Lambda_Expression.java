@@ -9,6 +9,8 @@ public class Lambda_Expression {
 
         Example example = (name)-> System.out.println("Hello, How are you "+name);
         students.forEach(example::Message);
+
+
     }
 }
 
@@ -16,3 +18,4 @@ public class Lambda_Expression {
 interface Example{
     void Message(String name);
 }
+
