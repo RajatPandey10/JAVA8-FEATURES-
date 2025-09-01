@@ -1,0 +1,21 @@
+🔑 What is a Functional Interface?
+
+A functional interface is an interface that has exactly one abstract method
+(SAM: Single Abstract Method).It can have any number of default or static
+methods, but only one abstract method.They are used for Lambda Expressions
+and Method References in Java 8+.
+
+✅ Examples of Functional Interfaces
+
+Predefined ones in java.util.function package:
+
+Runnable → run()
+Callable<T> → call()
+Comparator<T> → compare()
+Predicate<T> → test(T t)
+Function<T,R> → apply(T t)
+Consumer<T> → accept(T t)
+
+A functional interface is the backbone of Lambdas in Java 8.
+It’s an interface with one abstract method, and it makes code more readable, concise, and expressive
+
