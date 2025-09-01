@@ -1,0 +1,10 @@
+Method reference is used in Java 8+ as a shorthand for lambda expressions when
+you’re just calling an existing method. It makes code cleaner and more readable.
+
+🔑 Types of Method References:
+
+Reference to a static method → ClassName::staticMethod
+
+Reference to an instance method → object::instanceMethod
+
+Reference to a constructor → ClassName::new

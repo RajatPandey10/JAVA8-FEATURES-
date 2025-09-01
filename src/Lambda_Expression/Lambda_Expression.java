@@ -14,8 +14,10 @@ public class Lambda_Expression {
     }
 }
 
+
 @FunctionalInterface
 interface Example{
     void Message(String name);
 }
+
 
